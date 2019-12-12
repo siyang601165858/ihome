@@ -10,6 +10,9 @@ from urls import urls
 from tornado.options import options
 
 
+tornado.options.define('port', default=8000, type=int, help='在指定端口启动')
+
+
 class Application(tornado.web.Application):
     '''重写Application,用来补充db数据库实例'''
     def __init__(self, *args, **kwargs):
