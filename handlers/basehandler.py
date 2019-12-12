@@ -32,7 +32,7 @@ class BaseHandler(RequestHandler):
     # 设置默认的响应报文中header
     def set_default_headers(self) -> None:
 
-        self.set_header('Content-Type", "application/json')
+        self.set_header("Content-Type", "application/json")
 
     def write_error(self, status_code, **kwargs):
         '''自定义写会给前端的错误信息格式'''

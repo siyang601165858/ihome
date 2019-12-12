@@ -6,7 +6,6 @@
 import random
 import string
 import os.path
-# from cStringIO import StringIO
 from io import BytesIO
 
 from PIL import Image
@@ -69,7 +68,7 @@ class Captcha(object):
 
     def initialize(self, width=200, height=75, color=None, text=None, fonts=None):
         # self.image = Image.new('RGB', (width, height), (255, 255, 255))
-        self._text = text if text else random.sample(string.uppercase + string.uppercase + '3456789', 4)
+        self._text = text if text else random.sample(string.ascii_uppercase + string.ascii_uppercase + '3456789', 4)
         self.fonts = fonts if fonts else \
             [os.path.join(self._dir, 'fonts', font) for font in ['Arial.ttf', 'Georgia.ttf', 'actionj.ttf']]
         self.width = width
@@ -195,9 +194,9 @@ class Captcha(object):
             path: save path, default None.
             fmt: image format, PNG / JPEG.
         Returns:
-            A tuple, (name, text, StringIO.value).
+            A tuple, (text, StringIO.value).
             For example:
-                ('fXZJN4AFxHGoU5mIlcsdOypa', 'JGW9', '\x89PNG\r\n\x1a\n\x00\x00\x00\r...')
+                ('JGW9', '\x89PNG\r\n\x1a\n\x00\x00\x00\r...')
 
         """
         image = Image.new('RGB', (self.width, self.height), (255, 255, 255))
@@ -206,14 +205,10 @@ class Captcha(object):
         image = self.curve(image)
         image = self.noise(image)
         image = self.smooth(image)
-        name = "".join(random.sample(string.lowercase + string.uppercase + '3456789', 24))
         text = "".join(self._text)
-        # out = StringIO()
         out = BytesIO()
         image.save(out, format=fmt)
-        if path:
-            image.save(os.path.join(path, name), fmt)
-        return name, text, out.getvalue()
+        return text, out.getvalue()
 
     def generate_captcha(self):
         self.initialize()
@@ -222,4 +217,4 @@ class Captcha(object):
 captcha = Captcha.instance()
 
 if __name__ == '__main__':
-    captcha.generate_captcha()
+    print(captcha.generate_captcha())

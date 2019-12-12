@@ -19,8 +19,9 @@ class PictureCodeHandler(BaseHandler):
         pre_pic_id = self.get_argument('pre_pic_id')
 
         # 生成图片验证码
-        name, text, pic = captcha.generate_captcha()
+        text, pic = captcha.generate_captcha()
         # 将验证码对应文本放入redis缓存中
+
         try:
             self.redis.setex('piccode_%s' % cur_pic_id, 360, text)
             # print(self.redis.expires(cur_pic_id))
@@ -87,7 +88,7 @@ class SMSCodeHandler(BaseHandler):
                 return self.write(dict(errcode=RET.DATAERR, errmsg='该手机号已经注册过'))
 
         # 生成短信验证码
-        sms_code = '%06d' % random.randint(0, 1000000)
+        sms_code = '%06d' % random.randint(0, 999999)
 
         print(sms_code)
 
