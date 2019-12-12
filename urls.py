@@ -1,4 +1,6 @@
+import os
 
+from handlers.basehandler import StaticFileHandler
 
 urls = [
 
