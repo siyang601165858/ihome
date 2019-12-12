@@ -1,0 +1,33 @@
+
+# 图片验证码的有效期
+PIC_CODE_REDIS_EXPIRES = 300
+
+# 短信验证码的有效期
+SMS_CODE_REDIS_EXPIRES = 300
+
+# session数据的有效期
+SESSION_REDIS_EXPIRES = 86400
+
+# 七牛空间域名
+QINIU_DOMAIN = "http://o91qujnqh.bkt.clouddn.com/"
+
+# 城区信息缓存有效期
+AREA_INFO_REDIS_EXPIRES = 86400
+
+# redis缓存房屋信息的有效期
+REDIS_HOUSE_INFO_EXPIRES_SECONDES = 86400
+
+# 主页房屋展示最大数量
+HOME_PAGE_MAX_HOUSES = 5
+
+# 主页缓存数据过期时间
+HOME_PAGE_DATA_REDIS_EXPIRE_SECOND = 7200
+
+# 房屋列表每页条目数
+HOME_LIST_PAGE_CAPACITY = 2
+
+# 房屋列表缓存的页数
+HOME_LIST_PAGE_REDIS_CACHE_NUM = 2
+
+# 房屋列表缓存的有效期
+HOME_LIST_PAGE_REDIS_CACHE_EXPIRES = 7200
