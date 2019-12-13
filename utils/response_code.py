@@ -1,7 +1,7 @@
 # coding:utf-8
 
 class RET:
-    OK                  = "0"
+    OK                  = "2000"
     DBERR               = "4001"
     NODATA              = "4002"
     DATAEXIST           = "4003"

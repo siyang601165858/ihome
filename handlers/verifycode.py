@@ -48,12 +48,14 @@ class SMSCodeHandler(BaseHandler):
         piccode_id = self.json_args.get('piccode_id')
         piccode_text = self.json_args.get('piccode_text')
 
+        print(mobile)
+        print(piccode_text)
         # 参数校验
         if not all([mobile, piccode_id, piccode_text]):
             return self.write(dict(errcode=RET.PARAMERR, errmsg='缺少参数'))
 
         # 手机格式校验
-        if not re.match(r'^1\d{10}$', mobile):
+        if not re.match(r'^[1]([3-9])[0-9]{9}$', mobile):
             return self.write(dict(errcode=RET.PARAMERR, errmsg='手机号格式错误'))
 
         # 验证图片验证码
@@ -81,6 +83,8 @@ class SMSCodeHandler(BaseHandler):
         try:
             sql = 'select count(*) counts from ih_user_profile where up_mobile=%s'
             ret = self.db.get(sql, mobile)
+            print(ret)
+            print(ret['counts'])
         except Exception as e:
             logging.error(e)
         else:
@@ -100,6 +104,13 @@ class SMSCodeHandler(BaseHandler):
         except Exception as e:
             logging.error(e)
             return self.write(dict(errcode=RET.THIRDERR, errmsg='发送短信验证码失败'))
+
+        try:
+            self.redis.setex('smscode_%s' % mobile, 360, sms_code)
+            # print(self.redis.expires(cur_pic_id))
+        except Exception as e:
+            logging.error(e)
+            self.write('')
 
         if '000000' == result:
             return self.write(dict(errcode=RET.OK, errmsg='发送成功'))
