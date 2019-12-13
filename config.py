@@ -5,7 +5,7 @@ settings = dict(
     debug=True,
     static_path=os.path.join(os.path.dirname(__file__), 'static'),
     cookie_secret="F3fv87mzTI6fKbP13gUNZI+eZrL1VEzguyX1+AVsRdI=",
-    xsrf_cookies=True
+    xsrf_cookies=False
 )
 
 

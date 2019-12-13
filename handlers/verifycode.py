@@ -21,7 +21,8 @@ class PictureCodeHandler(BaseHandler):
         # 生成图片验证码
         text, pic = captcha.generate_captcha()
         # 将验证码对应文本放入redis缓存中
-
+        print(text)
+        print(cur_pic_id)
         try:
             self.redis.setex('piccode_%s' % cur_pic_id, 360, text)
             # print(self.redis.expires(cur_pic_id))
@@ -67,7 +68,7 @@ class SMSCodeHandler(BaseHandler):
             return self.write(dict(errcode=RET.PARAMERR, errmsg='验证码过期'))
 
         # 判断验证码是否正确
-        if real_piccode_text.lower() != piccode_text.lower():
+        if real_piccode_text.lower().decode() != piccode_text.lower():
             return self.write(dict(errcode=RET.PARAMERR, errmsg='验证码输入错误'))
 
         # 验证完成后删除redis中的图片验证码数据
@@ -95,7 +96,7 @@ class SMSCodeHandler(BaseHandler):
         # 发送短信验证码
         try:
             ccp = CCP()
-            result = ccp.send_template_sms(mobile, [sms_code, str(constants.SMS_CODE_REDIS_EXPIRES/60), 1])
+            result = ccp.send_template_sms(mobile, [sms_code, str(constants.SMS_CODE_REDIS_EXPIRES/60)], 1)
         except Exception as e:
             logging.error(e)
             return self.write(dict(errcode=RET.THIRDERR, errmsg='发送短信验证码失败'))

@@ -8,6 +8,6 @@ urls = [
     (r'/api/piccode', verifycode.PictureCodeHandler),   # 图片验证码
     (r'/api/smscode', verifycode.SMSCodeHandler),  # 短信验证码
     (r"/(.*)", StaticFileHandler,
-     {"path": os.path.join(os.path.dirname(__file__), "html"), "default_filename": "index.html"})
+     {"path": os.path.join(os.path.dirname(__file__), "html"), "default_filename": "register.html"})
 
 ]

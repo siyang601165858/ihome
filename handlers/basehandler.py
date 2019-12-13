@@ -12,11 +12,12 @@ class BaseHandler(RequestHandler):
     def prepare(self):
         '''预处理'''
         # 解析请求中的json数据
+        print(self.request.headers.get('Content-Type', ''))
         if self.request.headers.get('Content-Type', '').startswith("application/json"):
             session_data = self.request.body
             self.json_args = json.loads(session_data)
         else:
-            session_data = {}
+            self.json_args = {}
 
     # 提供db属性的简写操作
     @property
