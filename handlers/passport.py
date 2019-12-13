@@ -4,6 +4,7 @@ import re
 
 import config
 from handlers.basehandler import BaseHandler
+from utils.common import required_login
 from utils.response_code import RET
 from utils.session import Session
 
@@ -117,3 +118,21 @@ class LoginHandler(BaseHandler):
         else:
             return self.write(dict(errcode=RET.DATAERR, errmsg='密码输入错误'))
 
+
+class LoginOutHandler(BaseHandler):
+    """退出登录"""
+    @required_login
+    def get(self):
+        #　清除session数据
+        self.session.clear()
+        self.write(dict(errcode=RET.OK, errmsg='退出登录'))
+
+
+class CheckLoginStatusHandler(BaseHandler):
+    """检查用户登录状态"""
+    # get_current_user方法在基类中已实现，它的返回值是session.data（用户保存在redis中
+    def get(self):
+        if self.get_current_user():
+            self.write(dict(errcode=RET.OK, errmsg='用户已登录', data=self.session.session_data))
+        else:
+            self.write(dict(errcode=RET.SESSIONERR, errmsg='用户未登陆'))

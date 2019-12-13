@@ -82,3 +82,1470 @@
 [W 191212 14:41:28 web:2246] 404 GET /api/check_logined (127.0.0.1) 1.02ms
 [W 191212 14:41:28 web:2246] 404 GET /api/house/index (127.0.0.1) 0.57ms
 [I 191212 14:41:28 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.47ms
+[D 191212 14:52:38 selector_events:54] Using selector: EpollSelector
+[W 191212 14:52:50 web:2246] 404 GET /api/check_logined (127.0.0.1) 3.26ms
+[W 191212 14:52:50 web:2246] 404 GET /api/house/index (127.0.0.1) 0.72ms
+[D 191212 17:21:16 selector_events:54] Using selector: EpollSelector
+[W 191212 17:21:54 web:2246] 404 GET /api/check_logined (127.0.0.1) 2.31ms
+[W 191212 17:21:54 web:2246] 404 GET /api/house/index (127.0.0.1) 0.62ms
+[E 191212 17:22:08 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:22:08 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:22:08 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:22:08 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:22:13 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:22:13 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:22:13 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:22:43 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:23:43 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:23:57 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:23:57 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:23:57 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[D 191212 17:37:37 selector_events:54] Using selector: EpollSelector
+[E 191212 17:37:40 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[D 191212 17:38:30 selector_events:54] Using selector: EpollSelector
+[E 191212 17:38:37 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:38:37 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:38:37 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:38:39 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:38:39 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[E 191212 17:38:39 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/routing.py", line 268, in finish
+        self.delegate.finish()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2293, in finish
+        self.execute()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 227, in __init__
+        self.clear()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 328, in clear
+        self.set_default_headers()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 35, in set_default_headers
+        self.set_header('Content-Type", "application/json')
+    TypeError: set_header() missing 1 required positional argument: 'value'
+[D 191212 17:41:32 selector_events:54] Using selector: EpollSelector
+[W 191212 17:41:37 web:1782] 400 GET /api/piccode (127.0.0.1): Missing argument cur_pic_id
+[E 191212 17:41:37 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 18, in get
+        cur_pic_id = self.get_argument('cur_pic_id')
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 455, in get_argument
+        return self._get_argument(name, default, self.request.arguments, strip)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 538, in _get_argument
+        raise MissingArgumentError(name)
+    tornado.web.MissingArgumentError: HTTP 400: Bad Request (Missing argument cur_pic_id)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[W 191212 17:41:37 web:2246] 400 GET /api/piccode (127.0.0.1) 6.83ms
+[W 191212 17:41:37 web:1782] 400 GET /api/piccode (127.0.0.1): Missing argument cur_pic_id
+[E 191212 17:41:37 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 18, in get
+        cur_pic_id = self.get_argument('cur_pic_id')
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 455, in get_argument
+        return self._get_argument(name, default, self.request.arguments, strip)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 538, in _get_argument
+        raise MissingArgumentError(name)
+    tornado.web.MissingArgumentError: HTTP 400: Bad Request (Missing argument cur_pic_id)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[W 191212 17:41:37 web:2246] 400 GET /api/piccode (127.0.0.1) 3.28ms
+[E 191212 17:43:30 web:1788] Uncaught exception GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/piccode?cur_pic_id=gfd&pre_pic_id=fg', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 22, in get
+        name, text, pic = captcha.generate_captcha()
+      File "/home/kang/Music/ihome/libs/captcha/captcha.py", line 219, in generate_captcha
+        self.initialize()
+      File "/home/kang/Music/ihome/libs/captcha/captcha.py", line 72, in initialize
+        self._text = text if text else random.sample(string.uppercase + string.uppercase + '3456789', 4)
+    AttributeError: module 'string' has no attribute 'uppercase'
+[E 191212 17:43:30 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 22, in get
+        name, text, pic = captcha.generate_captcha()
+      File "/home/kang/Music/ihome/libs/captcha/captcha.py", line 219, in generate_captcha
+        self.initialize()
+      File "/home/kang/Music/ihome/libs/captcha/captcha.py", line 72, in initialize
+        self._text = text if text else random.sample(string.uppercase + string.uppercase + '3456789', 4)
+    AttributeError: module 'string' has no attribute 'uppercase'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191212 17:43:30 web:2246] 500 GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1) 3.31ms
+[E 191212 17:43:31 web:1788] Uncaught exception GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/piccode?cur_pic_id=gfd&pre_pic_id=fg', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 22, in get
+        name, text, pic = captcha.generate_captcha()
+      File "/home/kang/Music/ihome/libs/captcha/captcha.py", line 219, in generate_captcha
+        self.initialize()
+      File "/home/kang/Music/ihome/libs/captcha/captcha.py", line 72, in initialize
+        self._text = text if text else random.sample(string.uppercase + string.uppercase + '3456789', 4)
+    AttributeError: module 'string' has no attribute 'uppercase'
+[E 191212 17:43:31 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 22, in get
+        name, text, pic = captcha.generate_captcha()
+      File "/home/kang/Music/ihome/libs/captcha/captcha.py", line 219, in generate_captcha
+        self.initialize()
+      File "/home/kang/Music/ihome/libs/captcha/captcha.py", line 72, in initialize
+        self._text = text if text else random.sample(string.uppercase + string.uppercase + '3456789', 4)
+    AttributeError: module 'string' has no attribute 'uppercase'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191212 17:43:31 web:2246] 500 GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1) 3.22ms
+[I 191212 17:47:15 autoreload:202] /home/kang/Music/ihome/libs/captcha/__init__.py modified; restarting server
+[D 191212 17:47:15 selector_events:54] Using selector: EpollSelector
+[D 191212 17:47:25 selector_events:54] Using selector: EpollSelector
+[E 191212 17:47:30 web:1788] Uncaught exception GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/piccode?cur_pic_id=gfd&pre_pic_id=fg', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 22, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+[E 191212 17:47:30 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 22, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191212 17:47:30 web:2246] 500 GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1) 35.20ms
+[E 191212 17:47:31 web:1788] Uncaught exception GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/piccode?cur_pic_id=gfd&pre_pic_id=fg', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 22, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+[E 191212 17:47:31 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 22, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191212 17:47:31 web:2246] 500 GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1) 19.46ms
+[D 191212 17:47:57 selector_events:54] Using selector: EpollSelector
+[D 191212 17:48:54 selector_events:54] Using selector: EpollSelector
+[E 191212 17:48:58 web:1788] Uncaught exception GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/piccode?cur_pic_id=gfd&pre_pic_id=fg', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 23, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+[E 191212 17:48:58 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 23, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191212 17:48:58 web:2246] 500 GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1) 19.74ms
+[E 191212 17:48:58 web:1788] Uncaught exception GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/piccode?cur_pic_id=gfd&pre_pic_id=fg', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 23, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+[E 191212 17:48:58 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 23, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191212 17:48:58 web:2246] 500 GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1) 21.04ms
+[I 191212 17:51:54 autoreload:202] /home/kang/Music/ihome/handlers/verifycode.py modified; restarting server
+[D 191212 17:51:54 selector_events:54] Using selector: EpollSelector
+[D 191212 17:54:22 selector_events:54] Using selector: EpollSelector
+[E 191212 17:54:25 web:1788] Uncaught exception GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/piccode?cur_pic_id=gfd&pre_pic_id=fg', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 23, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+[E 191212 17:54:25 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 23, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191212 17:54:25 web:2246] 500 GET /api/piccode?cur_pic_id=gfd&pre_pic_id=fg (127.0.0.1) 34.34ms
+[I 191212 17:55:46 autoreload:202] /home/kang/Music/ihome/handlers/basehandler.py modified; restarting server
+[D 191212 17:55:47 selector_events:54] Using selector: EpollSelector
+[W 191212 17:57:53 web:2246] 404 GET /api/piccod (127.0.0.1) 3.70ms
+[W 191212 17:57:57 web:2246] 404 GET /api/piccod (127.0.0.1) 1.78ms
+[I 191212 17:57:57 web:2246] 200 GET /favicon.ico (127.0.0.1) 6.99ms
+[W 191212 17:58:15 web:1782] 400 GET /api/piccode (127.0.0.1): Missing argument cur_pic_id
+[W 191212 17:58:15 web:2246] 400 GET /api/piccode (127.0.0.1) 1.80ms
+[W 191212 17:58:34 web:1782] 400 GET /api/piccode (127.0.0.1): Missing argument cur_pic_id
+[W 191212 17:58:34 web:2246] 400 GET /api/piccode (127.0.0.1) 0.72ms
+[W 191212 17:58:35 web:1782] 400 GET /api/piccode (127.0.0.1): Missing argument cur_pic_id
+[W 191212 17:58:35 web:2246] 400 GET /api/piccode (127.0.0.1) 2.43ms
+[I 191212 17:58:35 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.12ms
+[W 191212 17:58:35 web:1782] 400 GET /api/piccode (127.0.0.1): Missing argument cur_pic_id
+[W 191212 17:58:35 web:2246] 400 GET /api/piccode (127.0.0.1) 1.97ms
+[I 191212 17:58:35 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.52ms
+[W 191212 17:58:54 web:1782] 400 GET /api/piccode?cur_pic_id= (127.0.0.1): Missing argument pre_pic_id
+[W 191212 17:58:54 web:2246] 400 GET /api/piccode?cur_pic_id= (127.0.0.1) 0.67ms
+[W 191212 17:58:56 web:1782] 400 GET /api/piccode?cur_pic_id= (127.0.0.1): Missing argument pre_pic_id
+[W 191212 17:58:56 web:2246] 400 GET /api/piccode?cur_pic_id= (127.0.0.1) 1.98ms
+[I 191212 17:58:57 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.10ms
+[E 191212 17:59:09 web:1788] Uncaught exception GET /api/piccode?cur_pic_id=d&pre_pic_id= (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/piccode?cur_pic_id=d&pre_pic_id=', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 23, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+[E 191212 17:59:09 web:2246] 500 GET /api/piccode?cur_pic_id=d&pre_pic_id= (127.0.0.1) 30.26ms
+[E 191212 17:59:11 web:1788] Uncaught exception GET /api/piccode?cur_pic_id=d&pre_pic_id= (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/piccode?cur_pic_id=d&pre_pic_id=', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 23, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+[E 191212 17:59:11 web:2246] 500 GET /api/piccode?cur_pic_id=d&pre_pic_id= (127.0.0.1) 19.43ms
+[I 191212 17:59:11 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.43ms
+[E 191212 17:59:11 web:1788] Uncaught exception GET /api/piccode?cur_pic_id=d&pre_pic_id= (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/piccode?cur_pic_id=d&pre_pic_id=', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 23, in get
+        name, text, pic = captcha.generate_captcha()
+    ValueError: not enough values to unpack (expected 3, got 2)
+[E 191212 17:59:11 web:2246] 500 GET /api/piccode?cur_pic_id=d&pre_pic_id= (127.0.0.1) 17.04ms
+[I 191212 17:59:11 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.89ms
+[D 191212 17:59:52 selector_events:54] Using selector: EpollSelector
+[E 191212 17:59:57 verifycode:36] HTTP 405: Method Not Allowed
+[I 191212 17:59:57 web:2246] 200 GET /api/piccode?cur_pic_id=d&pre_pic_id= (127.0.0.1) 18.43ms
+[I 191212 17:59:57 web:2246] 200 GET /favicon.ico (127.0.0.1) 9.18ms
+[E 191212 18:00:10 verifycode:36] HTTP 405: Method Not Allowed
+[I 191212 18:00:10 web:2246] 200 GET /api/piccode?cur_pic_id=&pre_pic_id= (127.0.0.1) 6.30ms
+[E 191212 18:00:11 verifycode:36] HTTP 405: Method Not Allowed
+[I 191212 18:00:11 web:2246] 200 GET /api/piccode?cur_pic_id=&pre_pic_id= (127.0.0.1) 21.04ms
+[I 191212 18:00:11 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.83ms
+[E 191212 18:00:12 verifycode:36] HTTP 405: Method Not Allowed
+[I 191212 18:00:12 web:2246] 200 GET /api/piccode?cur_pic_id=&pre_pic_id= (127.0.0.1) 19.36ms
+[I 191212 18:00:12 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.95ms
+[D 191212 18:01:15 selector_events:54] Using selector: EpollSelector
+[E 191212 18:01:17 verifycode:36] HTTP 405: Method Not Allowed
+[I 191212 18:01:17 web:2246] 200 GET /api/piccode?cur_pic_id=&pre_pic_id= (127.0.0.1) 32.36ms
+[I 191212 18:01:17 web:2246] 200 GET /favicon.ico (127.0.0.1) 3.73ms
+[E 191212 18:01:18 verifycode:36] HTTP 405: Method Not Allowed
+[I 191212 18:01:18 web:2246] 200 GET /api/piccode?cur_pic_id=&pre_pic_id= (127.0.0.1) 22.18ms
+[I 191212 18:01:18 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.76ms
+[E 191212 18:01:19 verifycode:36] HTTP 405: Method Not Allowed
+[I 191212 18:01:19 web:2246] 200 GET /api/piccode?cur_pic_id=&pre_pic_id= (127.0.0.1) 17.08ms
+[I 191212 18:01:19 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.52ms
+[E 191212 18:04:57 verifycode:36] HTTP 405: Method Not Allowed
+[I 191212 18:04:57 web:2246] 200 GET /api/piccode?cur_pic_id=&pre_pic_id= (127.0.0.1) 19.50ms
+[I 191212 18:04:57 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.74ms
+[E 191212 18:05:37 verifycode:36] HTTP 405: Method Not Allowed
+[I 191212 18:05:37 web:2246] 200 GET /api/piccode?cur_pic_id=&pre_pic_id= (127.0.0.1) 5.71ms
+[I 191212 18:05:37 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.92ms
+[E 191212 18:06:34 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 264, in _unimplemented_method
+        raise HTTPError(405)
+    tornado.web.HTTPError: HTTP 405: Method Not Allowed
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[W 191212 18:06:34 web:2246] 405 GET /api/smscode (127.0.0.1) 4.80ms
+[E 191212 18:06:36 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 264, in _unimplemented_method
+        raise HTTPError(405)
+    tornado.web.HTTPError: HTTP 405: Method Not Allowed
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[W 191212 18:06:36 web:2246] 405 GET /api/smscode (127.0.0.1) 2.23ms
+[W 191212 18:10:33 web:1782] 403 POST /api/smscode (127.0.0.1): '_xsrf' argument missing from POST
+[E 191212 18:10:33 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1674, in _execute
+        self.check_xsrf_cookie()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1516, in check_xsrf_cookie
+        raise HTTPError(403, "'_xsrf' argument missing from POST")
+    tornado.web.HTTPError: HTTP 403: Forbidden ('_xsrf' argument missing from POST)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[W 191212 18:10:33 web:2246] 403 POST /api/smscode (127.0.0.1) 3.24ms
+[D 191213 10:00:43 selector_events:54] Using selector: EpollSelector
+[D 191213 10:02:40 selector_events:54] Using selector: EpollSelector
+[W 191213 10:02:45 web:1782] 403 POST /api/smscode (127.0.0.1): '_xsrf' argument missing from POST
+[E 191213 10:02:45 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1674, in _execute
+        self.check_xsrf_cookie()
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1516, in check_xsrf_cookie
+        raise HTTPError(403, "'_xsrf' argument missing from POST")
+    tornado.web.HTTPError: HTTP 403: Forbidden ('_xsrf' argument missing from POST)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[W 191213 10:02:45 web:2246] 403 POST /api/smscode (127.0.0.1) 4.62ms
+[D 191213 10:09:56 selector_events:54] Using selector: EpollSelector
+[E 191213 10:09:59 web:1788] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 46, in post
+        mobile = self.json_args.get('mobile')
+    AttributeError: 'SMSCodeHandler' object has no attribute 'json_args'
+[E 191213 10:09:59 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 46, in post
+        mobile = self.json_args.get('mobile')
+    AttributeError: 'SMSCodeHandler' object has no attribute 'json_args'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 40, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191213 10:09:59 web:2246] 500 POST /api/smscode (127.0.0.1) 2.41ms
+[D 191213 10:14:08 selector_events:54] Using selector: EpollSelector
+[I 191213 10:14:13 web:2246] 200 POST /api/smscode (127.0.0.1) 1.43ms
+[W 191213 10:15:38 web:2246] 404 GET /api/check_logined (127.0.0.1) 3.28ms
+[W 191213 10:15:38 web:2246] 404 GET /api/house/index (127.0.0.1) 0.49ms
+[E 191213 10:15:45 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:15:45 web:2246] 200 GET /api/piccode?cur_pic_id=&pre_pic_id= (127.0.0.1) 40.90ms
+[I 191213 10:17:27 web:2246] 200 POST /api/smscode (127.0.0.1) 0.66ms
+[E 191213 10:18:58 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:18:58 web:2246] 200 GET /api/piccode?cur_pic_id=d&pre_pic_id=d (127.0.0.1) 24.82ms
+[I 191213 10:20:06 web:2246] 200 POST /api/smscode (127.0.0.1) 0.54ms
+[I 191213 10:20:10 web:2246] 200 POST /api/smscode (127.0.0.1) 0.51ms
+[I 191213 10:21:43 web:2246] 200 POST /api/smscode (127.0.0.1) 0.51ms
+[W 191213 10:24:37 web:2246] 404 GET /api/check_logined (127.0.0.1) 0.67ms
+[W 191213 10:24:37 web:2246] 404 GET /api/house/index (127.0.0.1) 1.53ms
+[I 191213 10:24:39 web:2246] 200 GET /search.html?aid=&aname=&sd=&ed= (127.0.0.1) 3.60ms
+[I 191213 10:24:39 web:2246] 200 GET /static/css/ihome/search.css (127.0.0.1) 3.02ms
+[I 191213 10:24:39 web:2246] 200 GET /static/js/ihome/search.js (127.0.0.1) 2.54ms
+[W 191213 10:24:39 web:2246] 404 GET /api/house/area (127.0.0.1) 0.85ms
+[W 191213 10:24:41 web:2246] 404 GET /api/check_logined (127.0.0.1) 0.63ms
+[W 191213 10:24:41 web:2246] 404 GET /api/house/index (127.0.0.1) 1.10ms
+[D 191213 10:26:08 selector_events:54] Using selector: EpollSelector
+[I 191213 10:26:11 web:2246] 200 GET / (127.0.0.1) 7.51ms
+[I 191213 10:26:11 web:2246] 200 GET /static/css/ihome/register.css (127.0.0.1) 1.29ms
+[I 191213 10:26:11 web:2246] 200 GET /static/js/ihome/register.js (127.0.0.1) 1.31ms
+[E 191213 10:26:11 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:26:11 web:2246] 200 GET /api/piccode?cur_pic_id=14a5c771-ddb2-4dfb-b43d-15e6d2528e30&pre_pic_id= (127.0.0.1) 14.03ms
+[I 191213 10:26:11 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.92ms
+[I 191213 10:26:24 web:2246] 304 GET / (127.0.0.1) 2.56ms
+[E 191213 10:26:24 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:26:24 web:2246] 200 GET /api/piccode?cur_pic_id=1f5cd2a4-d2d9-452e-b140-4d7cdf7da00e&pre_pic_id= (127.0.0.1) 5.42ms
+[I 191213 10:26:24 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.88ms
+[I 191213 10:26:56 web:2246] 304 GET / (127.0.0.1) 1.73ms
+[E 191213 10:26:56 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:26:56 web:2246] 200 GET /api/piccode?cur_pic_id=ec04ed5e-fcb4-451d-8d8d-ae341e92e612&pre_pic_id= (127.0.0.1) 6.76ms
+[I 191213 10:26:56 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.48ms
+[E 191213 10:27:00 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:27:00 web:2246] 200 GET /api/piccode?cur_pic_id=d3c9f5d0-5895-45cd-a5a6-904e049900a9&pre_pic_id=ec04ed5e-fcb4-451d-8d8d-ae341e92e612 (127.0.0.1) 22.08ms
+[E 191213 10:27:00 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:27:00 web:2246] 200 GET /api/piccode?cur_pic_id=3786efc1-e287-4479-ae1d-1a154df482a5&pre_pic_id=d3c9f5d0-5895-45cd-a5a6-904e049900a9 (127.0.0.1) 6.07ms
+[E 191213 10:27:06 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:27:06 web:2246] 200 GET /api/piccode?cur_pic_id=7106f5bc-f289-4186-a017-41842d427781&pre_pic_id=3786efc1-e287-4479-ae1d-1a154df482a5 (127.0.0.1) 19.09ms
+[E 191213 10:29:00 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:29:00 web:2246] 200 GET /api/piccode?cur_pic_id=108f0fe8-ccc5-46e4-9786-1f59e61eeb1d&pre_pic_id=7106f5bc-f289-4186-a017-41842d427781 (127.0.0.1) 18.66ms
+[E 191213 10:29:49 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:29:49 web:2246] 200 GET /api/piccode?cur_pic_id=21c333fe-0c60-407f-ba19-15c813035dd9&pre_pic_id=108f0fe8-ccc5-46e4-9786-1f59e61eeb1d (127.0.0.1) 17.10ms
+[I 191213 10:33:09 web:2246] 200 POST /api/smscode (127.0.0.1) 0.52ms
+[I 191213 10:34:44 web:2246] 200 POST /api/smscode (127.0.0.1) 0.54ms
+[D 191213 10:35:25 selector_events:54] Using selector: EpollSelector
+[I 191213 10:35:28 web:2246] 200 POST /api/smscode (127.0.0.1) 0.68ms
+[I 191213 10:36:07 autoreload:202] /home/kang/Music/ihome/handlers/verifycode.py modified; restarting server
+[D 191213 10:36:08 selector_events:54] Using selector: EpollSelector
+[I 191213 10:36:21 web:2246] 200 POST /api/smscode (127.0.0.1) 0.83ms
+[D 191213 10:37:55 selector_events:54] Using selector: EpollSelector
+[I 191213 10:38:00 web:2246] 200 POST /api/smscode (127.0.0.1) 0.76ms
+[I 191213 10:41:11 web:2246] 200 POST /api/smscode (127.0.0.1) 1.10ms
+[D 191213 10:42:18 selector_events:54] Using selector: EpollSelector
+[E 191213 10:42:22 web:1788] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1676, in _execute
+        result = self.prepare()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 22, in prepare
+        self.json_args = json.loads(session_data)
+      File "/usr/lib/python3.6/json/__init__.py", line 354, in loads
+        return _default_decoder.decode(s)
+      File "/usr/lib/python3.6/json/decoder.py", line 339, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+      File "/usr/lib/python3.6/json/decoder.py", line 357, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[E 191213 10:42:22 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1676, in _execute
+        result = self.prepare()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 22, in prepare
+        self.json_args = json.loads(session_data)
+      File "/usr/lib/python3.6/json/__init__.py", line 354, in loads
+        return _default_decoder.decode(s)
+      File "/usr/lib/python3.6/json/decoder.py", line 339, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+      File "/usr/lib/python3.6/json/decoder.py", line 357, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 42, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191213 10:42:22 web:2246] 500 POST /api/smscode (127.0.0.1) 3.62ms
+[I 191213 10:44:02 autoreload:202] /home/kang/Music/ihome/handlers/basehandler.py modified; restarting server
+[D 191213 10:44:02 selector_events:54] Using selector: EpollSelector
+[D 191213 10:44:13 selector_events:54] Using selector: EpollSelector
+[E 191213 10:44:15 web:1788] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1676, in _execute
+        result = self.prepare()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 18, in prepare
+        self.json_args = json.loads(session_data)
+      File "/usr/lib/python3.6/json/__init__.py", line 354, in loads
+        return _default_decoder.decode(s)
+      File "/usr/lib/python3.6/json/decoder.py", line 339, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+      File "/usr/lib/python3.6/json/decoder.py", line 357, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[E 191213 10:44:15 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1676, in _execute
+        result = self.prepare()
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 18, in prepare
+        self.json_args = json.loads(session_data)
+      File "/usr/lib/python3.6/json/__init__.py", line 354, in loads
+        return _default_decoder.decode(s)
+      File "/usr/lib/python3.6/json/decoder.py", line 339, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+      File "/usr/lib/python3.6/json/decoder.py", line 357, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 41, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191213 10:44:15 web:2246] 500 POST /api/smscode (127.0.0.1) 4.66ms
+[E 191213 10:48:19 web:1788] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 57, in post
+        if not re.match(r'^1\d{10}$', mobile):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/re.py", line 172, in match
+        return _compile(pattern, flags).match(string)
+    TypeError: expected string or bytes-like object
+[E 191213 10:48:19 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 57, in post
+        if not re.match(r'^1\d{10}$', mobile):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/re.py", line 172, in match
+        return _compile(pattern, flags).match(string)
+    TypeError: expected string or bytes-like object
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 41, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191213 10:48:19 web:2246] 500 POST /api/smscode (127.0.0.1) 1.60ms
+[D 191213 10:50:37 selector_events:54] Using selector: EpollSelector
+[I 191213 10:50:47 web:2246] 200 POST /api/smscode (127.0.0.1) 1.09ms
+[E 191213 10:53:26 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:53:26 web:2246] 200 GET /api/piccode?cur_pic_id=8ff72afe-e3f9-4f8b-b12b-96e72016c3fa&pre_pic_id=21c333fe-0c60-407f-ba19-15c813035dd9 (127.0.0.1) 35.98ms
+[I 191213 10:54:13 web:2246] 200 POST /api/smscode (127.0.0.1) 0.77ms
+[I 191213 10:56:51 web:2246] 200 POST /api/smscode (127.0.0.1) 0.71ms
+[I 191213 10:57:19 web:2246] 200 POST /api/smscode (127.0.0.1) 0.60ms
+[I 191213 10:57:58 web:2246] 200 POST /api/smscode (127.0.0.1) 0.49ms
+[D 191213 10:59:00 selector_events:54] Using selector: EpollSelector
+[I 191213 10:59:02 web:2246] 200 POST /api/smscode (127.0.0.1) 1.80ms
+[D 191213 10:59:26 selector_events:54] Using selector: EpollSelector
+[I 191213 10:59:27 web:2246] 200 POST /api/smscode (127.0.0.1) 1.05ms
+[I 191213 10:59:40 web:2246] 304 GET / (127.0.0.1) 8.14ms
+[E 191213 10:59:40 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 10:59:40 web:2246] 200 GET /api/piccode?cur_pic_id=30cab0ad-6c91-4fa2-8ffd-e2004b9c31ee&pre_pic_id= (127.0.0.1) 13.80ms
+[I 191213 10:59:40 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.69ms
+[E 191213 11:02:15 web:1788] Uncaught exception POST /api/smscode (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/smscode', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 73, in post
+        if real_piccode_text.lower() != piccode_text.lower().decode():
+    AttributeError: 'str' object has no attribute 'decode'
+[E 191213 11:02:15 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/verifycode.py", line 73, in post
+        if real_piccode_text.lower() != piccode_text.lower().decode():
+    AttributeError: 'str' object has no attribute 'decode'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 41, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191213 11:02:15 web:2246] 500 POST /api/smscode (127.0.0.1) 2.20ms
+[D 191213 11:03:11 selector_events:54] Using selector: EpollSelector
+[E 191213 11:03:13 verifycode:103] send_template_sms() missing 1 required positional argument: 'temp_id'
+[I 191213 11:03:13 web:2246] 200 POST /api/smscode (127.0.0.1) 18.96ms
+[I 191213 11:10:47 autoreload:202] /home/kang/Music/ihome/libs/yuntongxun/sms.py modified; restarting server
+[D 191213 11:10:47 selector_events:54] Using selector: EpollSelector
+[I 191213 11:11:11 autoreload:202] /home/kang/Music/ihome/libs/yuntongxun/sms.py modified; restarting server
+[D 191213 11:11:54 selector_events:54] Using selector: EpollSelector
+[I 191213 11:12:08 web:2246] 304 GET / (127.0.0.1) 7.96ms
+[E 191213 11:12:08 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 11:12:08 web:2246] 200 GET /api/piccode?cur_pic_id=87508a5d-e62f-4fbb-9ed5-4368f307e108&pre_pic_id= (127.0.0.1) 15.67ms
+[I 191213 11:12:08 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.50ms
+[E 191213 11:13:16 verifycode:103] send_template_sms() missing 1 required positional argument: 'temp_id'
+[I 191213 11:13:16 web:2246] 200 POST /api/smscode (127.0.0.1) 1.50ms
+[I 191213 11:16:45 autoreload:202] /home/kang/Music/ihome/constants.py modified; restarting server
+[D 191213 11:18:10 selector_events:54] Using selector: EpollSelector
+[I 191213 11:18:21 web:2246] 304 GET / (127.0.0.1) 8.71ms
+[E 191213 11:18:21 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 11:18:21 web:2246] 200 GET /api/piccode?cur_pic_id=e9c593d3-1ef5-4022-9abd-2a3f5bfc7787&pre_pic_id= (127.0.0.1) 22.11ms
+[I 191213 11:18:21 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.65ms
+[I 191213 11:19:59 web:2246] 200 POST /api/smscode (127.0.0.1) 31630.12ms
+[D 191213 11:20:49 selector_events:54] Using selector: EpollSelector
+[I 191213 11:20:52 web:2246] 200 POST /api/smscode (127.0.0.1) 2.74ms
+[D 191213 11:21:40 selector_events:54] Using selector: EpollSelector
+[I 191213 11:21:44 web:2246] 304 GET / (127.0.0.1) 18.66ms
+[E 191213 11:21:44 verifycode:36] HTTP 405: Method Not Allowed
+[I 191213 11:21:44 web:2246] 200 GET /api/piccode?cur_pic_id=77bb214c-70b4-4d6d-8909-da4eec367706&pre_pic_id= (127.0.0.1) 13.27ms
+[I 191213 11:21:44 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.52ms
+[D 191213 11:22:17 selector_events:54] Using selector: EpollSelector
+[I 191213 11:22:18 web:2246] 304 GET / (127.0.0.1) 8.91ms
+[E 191213 11:22:18 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 11:22:18 web:2246] 200 GET /api/piccode?cur_pic_id=74d08642-738b-4ffd-9c22-fbf7ec368046&pre_pic_id= (127.0.0.1) 13.26ms
+[I 191213 11:22:18 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.52ms
+[I 191213 11:23:25 web:2246] 200 POST /api/smscode (127.0.0.1) 31472.11ms
+[I 191213 11:25:00 autoreload:202] /home/kang/Music/ihome/handlers/verifycode.py modified; restarting server
+[D 191213 11:25:01 selector_events:54] Using selector: EpollSelector
+[D 191213 11:26:50 selector_events:54] Using selector: EpollSelector
+[I 191213 11:26:53 web:2246] 200 POST /api/smscode (127.0.0.1) 1.66ms
+[I 191213 11:27:00 web:2246] 304 GET / (127.0.0.1) 9.17ms
+[E 191213 11:27:00 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 11:27:00 web:2246] 200 GET /api/piccode?cur_pic_id=09086601-09d9-430b-b404-71e3ddf6686d&pre_pic_id= (127.0.0.1) 13.98ms
+[I 191213 11:27:00 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.92ms
+[I 191213 11:28:01 web:2246] 200 POST /api/smscode (127.0.0.1) 31557.97ms
+[D 191213 13:09:21 selector_events:54] Using selector: EpollSelector
+[I 191213 13:09:34 web:2246] 304 GET / (127.0.0.1) 12.29ms
+[E 191213 13:09:34 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 13:09:34 web:2246] 200 GET /api/piccode?cur_pic_id=da3a8fb8-99b4-4df1-9711-9fb3a22dd8bf&pre_pic_id= (127.0.0.1) 18.67ms
+[I 191213 13:09:35 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.79ms
+[I 191213 13:10:00 web:2246] 200 POST /api/smscode (127.0.0.1) 3.08ms
+[I 191213 13:11:52 web:2246] 200 POST /api/smscode (127.0.0.1) 1.42ms
+[I 191213 13:15:02 autoreload:202] /home/kang/Music/ihome/handlers/verifycode.py modified; restarting server
+[D 191213 13:15:02 selector_events:54] Using selector: EpollSelector
+[D 191213 13:15:34 selector_events:54] Using selector: EpollSelector
+[I 191213 13:15:42 web:2246] 304 GET / (127.0.0.1) 9.29ms
+[E 191213 13:15:42 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 13:15:42 web:2246] 200 GET /api/piccode?cur_pic_id=a7926d48-0480-4081-9396-4b8bd5dedae1&pre_pic_id= (127.0.0.1) 19.80ms
+[I 191213 13:15:42 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.46ms
+[I 191213 13:15:55 web:2246] 200 POST /api/smscode (127.0.0.1) 0.95ms
+[I 191213 13:16:06 web:2246] 200 POST /api/smscode (127.0.0.1) 0.42ms
+[I 191213 13:16:10 web:2246] 200 POST /api/smscode (127.0.0.1) 0.38ms
+[D 191213 13:17:14 selector_events:54] Using selector: EpollSelector
+[I 191213 13:17:18 web:2246] 200 POST /api/smscode (127.0.0.1) 2.68ms
+[D 191213 13:18:42 selector_events:54] Using selector: EpollSelector
+[D 191213 13:19:01 selector_events:54] Using selector: EpollSelector
+[I 191213 13:19:02 web:2246] 304 GET / (127.0.0.1) 2.42ms
+[E 191213 13:19:02 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 13:19:02 web:2246] 200 GET /api/piccode?cur_pic_id=ea6ca194-40b2-46ed-b1b3-f04e6390e729&pre_pic_id= (127.0.0.1) 15.68ms
+[I 191213 13:19:02 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.56ms
+[I 191213 13:19:48 web:2246] 200 POST /api/smscode (127.0.0.1) 31420.92ms
+[I 191213 13:19:48 web:2246] 200 POST /api/register (127.0.0.1) 2.16ms
+[I 191213 13:20:23 web:2246] 200 POST /api/smscode (127.0.0.1) 0.76ms
+[I 191213 13:20:30 web:2246] 304 GET / (127.0.0.1) 2.00ms
+[E 191213 13:20:30 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 13:20:30 web:2246] 200 GET /api/piccode?cur_pic_id=36446b93-2dce-4c27-8144-673efac832e5&pre_pic_id= (127.0.0.1) 5.44ms
+[I 191213 13:20:30 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.47ms
+[I 191213 13:21:34 web:2246] 200 POST /api/smscode (127.0.0.1) 31598.52ms
+[I 191213 13:22:32 web:2246] 200 POST /api/register (127.0.0.1) 0.50ms
+[I 191213 13:24:30 web:2246] 200 POST /api/register (127.0.0.1) 0.76ms
+[I 191213 13:25:14 web:2246] 304 GET / (127.0.0.1) 2.00ms
+[E 191213 13:25:14 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 13:25:14 web:2246] 200 GET /api/piccode?cur_pic_id=517cab12-f4f6-4b10-9190-5d5e8f065ccf&pre_pic_id= (127.0.0.1) 5.25ms
+[I 191213 13:25:14 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.49ms
+[I 191213 13:26:14 web:2246] 200 POST /api/smscode (127.0.0.1) 31573.14ms
+[I 191213 13:26:46 web:2246] 200 POST /api/register (127.0.0.1) 0.60ms
+[I 191213 13:28:04 autoreload:202] /home/kang/Music/ihome/handlers/passport.py modified; restarting server
+[D 191213 13:28:05 selector_events:54] Using selector: EpollSelector
+[I 191213 13:28:05 web:2246] 304 GET / (127.0.0.1) 8.52ms
+[E 191213 13:28:06 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 13:28:06 web:2246] 200 GET /api/piccode?cur_pic_id=3f8f5baf-5770-4858-9416-f5a8a690387f&pre_pic_id= (127.0.0.1) 10.75ms
+[I 191213 13:28:06 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.49ms
+[D 191213 13:30:45 selector_events:54] Using selector: EpollSelector
+[I 191213 13:30:52 web:2246] 304 GET / (127.0.0.1) 9.07ms
+[E 191213 13:30:52 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 13:30:52 web:2246] 200 GET /api/piccode?cur_pic_id=05c03cef-e169-4a08-930f-943996de23d0&pre_pic_id= (127.0.0.1) 11.43ms
+[I 191213 13:30:52 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.48ms
+[I 191213 13:32:00 web:2246] 200 POST /api/smscode (127.0.0.1) 31436.46ms
+[I 191213 14:06:18 web:2246] 200 POST /api/smscode (127.0.0.1) 3.60ms
+[I 191213 14:06:26 web:2246] 304 GET / (127.0.0.1) 2.92ms
+[E 191213 14:06:26 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 14:06:26 web:2246] 200 GET /api/piccode?cur_pic_id=0846d7a8-1e1d-40dc-a66d-da784c3c3a46&pre_pic_id= (127.0.0.1) 27.48ms
+[I 191213 14:06:26 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.99ms
+[I 191213 14:07:33 web:2246] 200 POST /api/smscode (127.0.0.1) 31654.37ms
+[I 191213 14:07:33 web:2246] 200 POST /api/register (127.0.0.1) 0.86ms
+[D 191213 14:08:24 selector_events:54] Using selector: EpollSelector
+[I 191213 14:08:29 web:2246] 304 GET / (127.0.0.1) 10.21ms
+[E 191213 14:08:29 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 14:08:29 web:2246] 200 GET /api/piccode?cur_pic_id=f50ca3c7-adec-4d49-98a4-0c42436413f7&pre_pic_id= (127.0.0.1) 18.98ms
+[I 191213 14:08:29 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.52ms
+[I 191213 14:09:27 web:2246] 200 POST /api/smscode (127.0.0.1) 31494.97ms
+[E 191213 14:09:30 web:1788] Uncaught exception POST /api/register (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/register', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/passport.py", line 59, in post
+        password = hashlib.sha256(password+config.password_secret).hexdigest()
+    TypeError: Unicode-objects must be encoded before hashing
+[E 191213 14:09:30 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/passport.py", line 59, in post
+        password = hashlib.sha256(password+config.password_secret).hexdigest()
+    TypeError: Unicode-objects must be encoded before hashing
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 41, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191213 14:09:30 web:2246] 500 POST /api/register (127.0.0.1) 8.33ms
+[D 191213 14:10:01 selector_events:54] Using selector: EpollSelector
+[I 191213 14:10:06 web:2246] 304 GET / (127.0.0.1) 3.76ms
+[E 191213 14:10:06 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 14:10:06 web:2246] 200 GET /api/piccode?cur_pic_id=5c906623-cabe-4ff8-a642-8e8d225c7ca3&pre_pic_id= (127.0.0.1) 14.66ms
+[I 191213 14:10:06 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.64ms
+[I 191213 14:11:17 web:2246] 200 POST /api/smscode (127.0.0.1) 31641.12ms
+[E 191213 14:11:17 web:1788] Uncaught exception POST /api/register (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/register', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/passport.py", line 48, in post
+        if real_smscode != smscode.decode():
+    AttributeError: 'str' object has no attribute 'decode'
+[E 191213 14:11:17 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/passport.py", line 48, in post
+        if real_smscode != smscode.decode():
+    AttributeError: 'str' object has no attribute 'decode'
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 41, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191213 14:11:17 web:2246] 500 POST /api/register (127.0.0.1) 12.06ms
+[D 191213 14:13:09 selector_events:54] Using selector: EpollSelector
+[I 191213 14:13:14 web:2246] 304 GET / (127.0.0.1) 9.20ms
+[E 191213 14:13:14 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 14:13:14 web:2246] 200 GET /api/piccode?cur_pic_id=6da818b8-f811-451c-9563-68acb8dbbd16&pre_pic_id= (127.0.0.1) 12.22ms
+[I 191213 14:13:14 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.59ms
+[I 191213 14:14:12 web:2246] 200 POST /api/smscode (127.0.0.1) 31566.26ms
+[E 191213 14:14:12 web:1788] Uncaught exception POST /api/register (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='POST', uri='/api/register', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/passport.py", line 59, in post
+        password = hashlib.sha256(password+config.password_secret).hexdigest()
+    TypeError: Unicode-objects must be encoded before hashing
+[E 191213 14:14:12 web:1216] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/kang/Music/ihome/handlers/passport.py", line 59, in post
+        password = hashlib.sha256(password+config.password_secret).hexdigest()
+    TypeError: Unicode-objects must be encoded before hashing
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 1214, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/home/kang/Music/ihome/handlers/basehandler.py", line 41, in write_error
+        self.write(kwargs)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/web.py", line 836, in write
+        chunk = escape.json_encode(chunk)
+      File "/home/kang/.virtualenvs/py3_tornado/lib/python3.6/site-packages/tornado/escape.py", line 75, in json_encode
+        return json.dumps(value).replace("</", "<\\/")
+      File "/usr/lib/python3.6/json/__init__.py", line 231, in dumps
+        return _default_encoder.encode(obj)
+      File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+        chunks = self.iterencode(o, _one_shot=True)
+      File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+        return _iterencode(o, 0)
+      File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+        o.__class__.__name__)
+    TypeError: Object of type 'type' is not JSON serializable
+[E 191213 14:14:12 web:2246] 500 POST /api/register (127.0.0.1) 6.89ms
+[D 191213 14:15:33 selector_events:54] Using selector: EpollSelector
+[I 191213 14:15:36 web:2246] 304 GET / (127.0.0.1) 9.18ms
+[E 191213 14:15:36 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 14:15:36 web:2246] 200 GET /api/piccode?cur_pic_id=ee603080-6859-4b9d-af5b-914e1bdd917e&pre_pic_id= (127.0.0.1) 14.32ms
+[I 191213 14:15:36 web:2246] 200 GET /favicon.ico (127.0.0.1) 0.48ms
+[I 191213 14:16:33 web:2246] 200 POST /api/smscode (127.0.0.1) 31458.82ms
+[E 191213 14:16:33 passport:63] 'Connection' object has no attribute 'excute'
+[I 191213 14:16:33 web:2246] 200 POST /api/register (127.0.0.1) 6.93ms
+[D 191213 14:24:22 selector_events:54] Using selector: EpollSelector
+[I 191213 14:24:25 web:2246] 304 GET / (127.0.0.1) 5.77ms
+[E 191213 14:24:25 verifycode:37] HTTP 405: Method Not Allowed
+[I 191213 14:24:25 web:2246] 200 GET /api/piccode?cur_pic_id=84bedc72-df34-4381-ade0-ba3dc54f2d04&pre_pic_id= (127.0.0.1) 20.76ms
+[I 191213 14:24:25 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.23ms
+[I 191213 14:25:22 web:2246] 200 POST /api/smscode (127.0.0.1) 31475.60ms
+[E 191213 14:25:22 passport:63] 'Connection' object has no attribute 'excute'
+[I 191213 14:25:22 web:2246] 200 POST /api/register (127.0.0.1) 2.77ms
+[D 191213 14:26:43 selector_events:54] Using selector: EpollSelector
+[I 191213 14:27:03 web:2246] 200 POST /api/register (127.0.0.1) 11.88ms
+[I 191213 14:27:30 web:2246] 200 POST /api/register (127.0.0.1) 0.44ms
+[I 191213 14:27:38 web:2246] 200 POST /api/register (127.0.0.1) 5.53ms
+[D 191213 14:28:19 selector_events:54] Using selector: EpollSelector
+[E 191213 14:28:21 passport:63] (1062, "Duplicate entry '18848961358' for key 'up_name'")
+[I 191213 14:28:21 web:2246] 200 POST /api/register (127.0.0.1) 3.74ms
+[D 191213 14:43:23 selector_events:54] Using selector: EpollSelector
+[E 191213 14:43:43 passport:112] 'up_mobile'
+[I 191213 14:43:43 web:2246] 200 POST /api/login (127.0.0.1) 2.35ms
+[D 191213 14:44:39 selector_events:54] Using selector: EpollSelector
+[E 191213 14:44:41 passport:113] 'up_mobile'
+[I 191213 14:44:41 web:2246] 200 POST /api/login (127.0.0.1) 3.07ms
+[D 191213 14:45:23 selector_events:54] Using selector: EpollSelector
+[E 191213 14:45:24 passport:113] 'up_mobile'
+[I 191213 14:45:24 web:2246] 200 POST /api/login (127.0.0.1) 2.08ms
+[D 191213 14:47:26 selector_events:54] Using selector: EpollSelector
+[E 191213 14:47:28 passport:113] 'up_mobile'
+[I 191213 14:47:28 web:2246] 200 POST /api/login (127.0.0.1) 1.88ms
+[D 191213 14:51:22 selector_events:54] Using selector: EpollSelector
+[E 191213 14:51:25 passport:114] 'up_mobile'
+[I 191213 14:51:25 web:2246] 200 POST /api/login (127.0.0.1) 1.98ms
+[D 191213 14:53:39 selector_events:54] Using selector: EpollSelector
+[E 191213 14:53:42 passport:114] 'up_mobile'
+[I 191213 14:53:42 web:2246] 200 POST /api/login (127.0.0.1) 5.61ms
+[D 191213 14:55:19 selector_events:54] Using selector: EpollSelector
+[E 191213 14:55:20 passport:114] 'up_mobile'
+[I 191213 14:55:20 web:2246] 200 POST /api/login (127.0.0.1) 2.00ms
+[D 191213 14:56:58 selector_events:54] Using selector: EpollSelector
+[E 191213 14:57:01 passport:116] 'up_mobile'
+[I 191213 14:57:01 web:2246] 200 POST /api/login (127.0.0.1) 4.02ms
+[D 191213 14:57:14 selector_events:54] Using selector: EpollSelector
+[E 191213 14:57:16 passport:117] 'up_mobile'
+[I 191213 14:57:16 web:2246] 200 POST /api/login (127.0.0.1) 3.00ms
+[D 191213 14:58:12 selector_events:54] Using selector: EpollSelector
+[E 191213 14:58:13 passport:118] 'up_mobile'
+[I 191213 14:58:13 web:2246] 200 POST /api/login (127.0.0.1) 1.87ms
+[D 191213 14:58:34 selector_events:54] Using selector: EpollSelector
+[E 191213 14:58:36 passport:120] 'up_mobile'
+[I 191213 14:58:36 web:2246] 200 POST /api/login (127.0.0.1) 1.86ms
+[D 191213 14:59:48 selector_events:54] Using selector: EpollSelector
+[I 191213 14:59:50 web:2246] 200 POST /api/login (127.0.0.1) 3.40ms
+[I 191213 15:01:34 autoreload:202] /home/kang/Music/ihome/utils/session.py modified; restarting server
+[D 191213 15:01:34 selector_events:54] Using selector: EpollSelector
+[D 191213 15:01:37 selector_events:54] Using selector: EpollSelector
+[I 191213 15:01:38 web:2246] 200 POST /api/login (127.0.0.1) 6.37ms
+[D 191213 15:22:35 selector_events:54] Using selector: EpollSelector
+[W 191213 15:23:10 web:2246] 404 GET /api/api/login_check (127.0.0.1) 3.59ms
+[W 191213 15:23:56 web:2246] 404 GET /api/api/logout (127.0.0.1) 1.02ms
+[I 191213 15:24:20 web:2246] 200 GET /api/logout (127.0.0.1) 1.34ms
+[I 191213 15:24:36 web:2246] 200 GET /api/login_check (127.0.0.1) 0.88ms
